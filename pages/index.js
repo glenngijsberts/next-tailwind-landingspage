@@ -22,7 +22,7 @@ export default function Home() {
             </p>
 
             <div className="w-full flex flex-center justify-center lg:block">
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 md:py-4 md:px-12 rounded mt-4">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 md:py-4 md:px-12 rounded mt-4">
                 Download app
               </button>
             </div>
@@ -64,10 +64,7 @@ export default function Home() {
                 fill="white"
                 className="mb-4"
               >
-                <path
-                  class="heroicon-ui"
-                  d="M7 5H5v14h14V5h-2v10a1 1 0 0 1-1.45.9L12 14.11l-3.55 1.77A1 1 0 0 1 7 15V5zM5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2zm4 2v8.38l2.55-1.27a1 1 0 0 1 .9 0L15 13.38V5H9z"
-                />
+                <path d="M7 5H5v14h14V5h-2v10a1 1 0 0 1-1.45.9L12 14.11l-3.55 1.77A1 1 0 0 1 7 15V5zM5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2zm4 2v8.38l2.55-1.27a1 1 0 0 1 .9 0L15 13.38V5H9z" />
               </svg>
               <h4 className="text-white text-l md:text-xl text-center leading-8 font-normal">
                 Interactieve kaart met populaire doelen
@@ -82,10 +79,7 @@ export default function Home() {
                 fill="white"
                 className="mb-4"
               >
-                <path
-                  class="heroicon-ui"
-                  d="M11 20v-2.08a6 6 0 0 1-4.24-3A4.02 4.02 0 0 1 2 11V6c0-1.1.9-2 2-2h2c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2h2a2 2 0 0 1 2 2v5a4 4 0 0 1-4.76 3.93A6 6 0 0 1 13 17.92V20h4a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2h4zm6.92-7H18a2 2 0 0 0 2-2V6h-2v6c0 .34-.03.67-.08 1zM6.08 13A6.04 6.04 0 0 1 6 12V6H4v5a2 2 0 0 0 2.08 2zM8 4v8a4 4 0 1 0 8 0V4H8z"
-                />
+                <path d="M11 20v-2.08a6 6 0 0 1-4.24-3A4.02 4.02 0 0 1 2 11V6c0-1.1.9-2 2-2h2c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2h2a2 2 0 0 1 2 2v5a4 4 0 0 1-4.76 3.93A6 6 0 0 1 13 17.92V20h4a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2h4zm6.92-7H18a2 2 0 0 0 2-2V6h-2v6c0 .34-.03.67-.08 1zM6.08 13A6.04 6.04 0 0 1 6 12V6H4v5a2 2 0 0 0 2.08 2zM8 4v8a4 4 0 1 0 8 0V4H8z" />
               </svg>
               <h4 className="text-white text-l md:text-xl text-center leading-8 font-normal">
                 Laat je inspireren door persoonlijke content
@@ -100,10 +94,7 @@ export default function Home() {
                 fill="white"
                 className="mb-4"
               >
-                <path
-                  class="heroicon-ui"
-                  d="M20 7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9c0-1.1.9-2 2-2h2.38l1.73-3.45A1 1 0 0 1 9 3h6a1 1 0 0 1 .9.55L17.61 7H20zM9.62 5L7.89 8.45A1 1 0 0 1 7 9H4v10h16V9h-3a1 1 0 0 1-.9-.55L14.39 5H9.62zM12 17a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
-                />
+                <path d="M20 7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9c0-1.1.9-2 2-2h2.38l1.73-3.45A1 1 0 0 1 9 3h6a1 1 0 0 1 .9.55L17.61 7H20zM9.62 5L7.89 8.45A1 1 0 0 1 7 9H4v10h16V9h-3a1 1 0 0 1-.9-.55L14.39 5H9.62zM12 17a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
               </svg>
               <h4 className="text-white text-l md:text-xl text-center leading-8 font-normal">
                 Laat je inspireren door verhalen van andere gebruikers
@@ -118,10 +109,7 @@ export default function Home() {
                 fill="white"
                 className="mb-4"
               >
-                <path
-                  class="heroicon-ui"
-                  d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm1-7h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2H7a1 1 0 0 1 0-2h2V7a1 1 0 1 1 2 0v2z"
-                />
+                <path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm1-7h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2H7a1 1 0 0 1 0-2h2V7a1 1 0 1 1 2 0v2z" />
               </svg>
               <h4 className="text-white text-l md:text-xl text-center leading-8 font-normal">
                 Motiveer jezelf door reminders van je doelen in te stellen
@@ -136,10 +124,7 @@ export default function Home() {
                 fill="white"
                 className="mb-4"
               >
-                <path
-                  class="heroicon-ui"
-                  d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2zm0 2v14h14V5H5zm8 6h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2H9a1 1 0 0 1 0-2h2V9a1 1 0 0 1 2 0v2z"
-                />
+                <path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2zm0 2v14h14V5H5zm8 6h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2H9a1 1 0 0 1 0-2h2V9a1 1 0 0 1 2 0v2z" />
               </svg>
               <h4 className="text-white text-l md:text-xl text-center leading-8 font-normal">
                 Laat je inspireren door populaire doelen van andere gebruikers
@@ -149,14 +134,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-white w-max height-auto pt-32 pl-16 pr-16">
+      <div className="bg-white w-max height-auto pt-16 pl-16 pr-16 md:pt-32">
         <div className="container mx-auto">
           <div className="grid gap-4 md:gap-8 lg:gap-16 grid-cols-1 lg:grid-cols-2 grid-flow-row-dense">
             <div className="hidden lg:block">
-              <img src="/img/mybucky-ios.png" className="img-responsive" />
+              <img src="/img/ios.png" className="img-responsive" />
             </div>
 
-            <div>
+            <div className="mb-8 lg:mb-0">
               <h3 className="text-4xl tracking-tight leading-10 font-bold text-blue-500 sm:text-3xl sm:leading-tight md:text-4xl text-center lg:text-left">
                 Download de app
               </h3>
@@ -182,7 +167,7 @@ export default function Home() {
             </div>
 
             <div className="block lg:hidden">
-              <img src="/img/mybucky-ios.png" className="img-responsive" />
+              <img src="/img/ios.png" className="img-responsive" />
             </div>
           </div>
         </div>
