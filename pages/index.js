@@ -22,8 +22,16 @@ export default function Home() {
             </p>
 
             <div className="w-full flex flex-center justify-center lg:block">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 md:py-4 md:px-12 rounded mt-4">
-                Download app
+              <button
+                href="#download"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded mt-4"
+              >
+                <a
+                  href="#download"
+                  className="block py-2 px-4 md:py-4 md:px-12"
+                >
+                  Download app
+                </a>
               </button>
             </div>
           </div>
@@ -141,7 +149,7 @@ export default function Home() {
               <img src="/img/ios.png" className="img-responsive" />
             </div>
 
-            <div className="mb-8 lg:mb-0">
+            <div className="mb-8 lg:mb-0" id="download">
               <h3 className="text-4xl tracking-tight leading-10 font-bold text-blue-500 sm:text-3xl sm:leading-tight md:text-4xl text-center lg:text-left">
                 Download de app
               </h3>
@@ -188,6 +196,7 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
+          scroll-behavior: smooth;
           padding: 0;
           margin: 0;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
